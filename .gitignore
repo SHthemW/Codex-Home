@@ -1,0 +1,32 @@
+﻿# Shared prompt assets
+!AGENTS.md
+!README.md
+!skills/
+!skills/README.md
+!skills/**/SKILL.md
+!skills/**/references/**
+
+# Local configuration and credentials
+auth.json
+cap_sid
+installation_id
+config.toml
+version.json
+
+# Runtime data
+.personality_migration
+history.jsonl
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+*.log
+.sandbox/
+.sandbox-bin/
+.tmp/
+tmp/
+sessions/
+memories/
+rules/
+
+# Built-in and machine-managed skills
+skills/.system/
