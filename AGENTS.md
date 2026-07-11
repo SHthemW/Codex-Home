@@ -17,7 +17,10 @@
 
 ## 项目规范:
 
-- 对所有.net项目:
+- 对所有.net(不含unity)项目:
   1. 添加如下打包机制: 每当执行dotnet publish, 将生成的文件夹压缩, 重命名为程序名-平台名(win/mac等)-包体类型(poartable等)-yymmdd-hhmmss, 存放至bin/Release-Archives/ 文件夹下.
   2. 所有源代码文件放入项目目录/src/文件夹下.
+- 对所有Python项目:
+  - 所有源代码文件放入项目目录/src/文件夹下.
+
 
